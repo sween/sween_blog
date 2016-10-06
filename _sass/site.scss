@@ -20,8 +20,9 @@ body {
 	background-position: center center;
 	background-attachment: fixed;
 	@media #{$small} {
-	    background-image: none !important;
-		background: $white;
+		background: "http://sween.integrationrequired.io/assets/img/cloud.gif";
+	    /*background-image: none !important;*/
+		background: transparent;
 	}
 }
 * {
