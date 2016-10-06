@@ -195,10 +195,11 @@ header .entry-meta {
 .feature {
     @include transition(.5s);
     @media #{$small} {
-        background-image: none !important;
+        background: "http://sween.integrationrequired.io/assets/img/cloud.gif";
     }
     @media #{$medium} {
-        color: white;
+        color: transparent;
+		background: "http://sween.integrationrequired.io/assets/img/cloud.gif";
         padding: 4em;
         margin-left: -4rem;
         margin-right: -4rem;
@@ -209,7 +210,8 @@ header .entry-meta {
         background-position: center center;
     }
     @media #{$notsmall} {
-        color: white;
+        color: transparent;
+		background: "http://sween.integrationrequired.io/assets/img/cloud.gif";
         padding: 10em;
         margin-left: -4rem;
         margin-right: -4rem;
