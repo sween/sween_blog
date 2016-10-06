@@ -27,10 +27,10 @@
       color: $transparent;
       border-color: $success;
       &:visited {
-        color: $transparent;
+        color: transparent;
       }
       &:hover {
-        background-color: $white;
+        background-color: white;
         color: $success;
       }
     }
@@ -39,10 +39,10 @@
       color: $white;
       border-color: $warning;
       &:visited {
-        color: $white;
+        color: transparent;
       }
       &:hover {
-        background-color: $white;
+        background-color: transparent;
         color: $warning;
       }
     }
