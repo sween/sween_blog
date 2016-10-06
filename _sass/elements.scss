@@ -24,7 +24,7 @@
 	@extend %btnextend;
 	&.btn-success {
       background-color: $success;
-      color: $transparent;
+      color: transparent;
       border-color: $success;
       &:visited {
         color: transparent;
