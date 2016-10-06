@@ -24,6 +24,11 @@ body {
 	    /*background-image: none !important;*/
 		background: transparent;
 	}
+	@media #{$medium} {
+		background: "http://sween.integrationrequired.io/assets/img/cloud.gif";
+	    /*background-image: none !important;*/
+		background: transparent;
+	}
 }
 * {
 	box-sizing: border-box;
